@@ -1,0 +1,124 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    /* transition: title 2s infinite alternate; */
+    color:green;
+    text-align: center;
+}
+/* @keyframes title{
+    0%{
+        color:#00ff00
+    }
+    100%{
+        color:aquamarine
+    }
+} */
+body{
+    background-color: black;
+}
+article{
+    text-align: center;
+    width:40%;
+    height:20%;
+    border-radius: 10px;
+    color:#00ff00;
+    cursor:pointer;
+    transition: 0.5s;
+}
+main{
+    margin-top: 10%;
+    display:flex;
+    justify-content: space-around;
+}
+article:hover{
+    background-color:rgb(0, 255, 0);
+    color:black
+}
+.duty{
+    text-align: left;
+}
+aside{
+    text-align: center;
+    color:rgb(0, 255, 0);
+    border-radius:10px;
+    width:500px;
+    transition: 0.3s;
+
+}
+aside:hover{
+    background-color: #00ff00;
+    color:black;
+    cursor:pointer;
+    border-radius:20px
+}
+aside h2:hover{
+    text-decoration: underline;
+}
+video{
+    width:200px;
+    border-radius:10px;
+    transition: 0.3s;
+}
+img{
+    border-radius:10px;
+    transition: 0.3s;
+}
+img:hover, video:hover{
+    border-radius:20px;
+}
+footer{
+    display:flex;
+    justify-content:space-around;
+    cursor:pointer;
+    margin-top:8%;
+}
+button{
+    width:150px;
+    height:50px;
+    font-size:large;
+    border-radius:3px;
+    border-style:hidden;
+    cursor:pointer
+}
+#facebook{
+    background-color: rgb(0, 108, 184);
+    color:white;
+    transition: 0.5s;
+}
+#facebook:hover{
+    background-color: blue;
+    font-weight: 600;
+}
+#facebook:active{
+    background-color: white;
+    color:blue
+}
+
+#Youtube{
+    background-color: red;
+    color:white;
+    transition: 0.5s;
+}
+#Youtube:hover{
+    background-color: rgb(143, 0, 0);
+    color:white;
+}
+#Youtube:active{
+    opacity: 0.5;
+}
+
+#select{
+    background-color: none;
+    border-style:groove;
+    border-width:3px;
+    width:100px;
+    height:50px;
+    cursor:pointer;
+    border-radius:3px;
+    transition:0.6s;
+}
+#select:hover{
+    background-color: aquamarine;
+    width:140px
+}
