@@ -1,0 +1,96 @@
+body{
+    background: linear-gradient(rgb(21, 99, 119), rgb(3, 68, 88));
+    height:710px;
+}
+/* header */
+header h1{
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+header nav ul li{
+    list-style-type: none;
+    display:inline;
+    margin-left:30px;
+    padding-left:60px;
+    transition:0.5s
+}
+header li a:hover{
+    color:rgb(226, 147, 2);
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size:20px;
+}
+#title a{
+    color:orange;
+    font-size:21px
+}
+header input[type='search']{
+    width:350px;
+    height:40px;
+    border-radius:20px;
+    padding-left:20px;
+    border-style:none;
+    font-size:15px;
+    transition:0.5s;
+}
+header input[type='search']:hover{
+    background-color: rgb(1, 151, 151);
+    color:white
+}
+hr{
+    opacity: 0.2;
+}
+h2{
+    color:white;
+    cursor:pointer;
+    text-align: center;
+    transition:0.3s
+}
+label{
+    font-size:20px;
+    color:white
+}
+label:hover{
+    color:orange;
+    transition:0.2s
+}
+h2:hover{
+    color:orange;
+    text-decoration: underline wavy;
+}
+form{
+    margin-left:30%;
+}
+form input{
+    width:350px;
+    height:40px;
+    border-radius:20px;
+    margin-left:20px;
+    padding-left:20px;
+    border-style:none;
+    font-size:15px;
+    transition:0.5s;
+}
+
+input[type='submit']{
+    margin-left:130px;
+    text-align:center;
+    background-color: green;
+    color:white;
+    width:200px;
+    height:50px;
+    font-size:20px;
+    border-radius:10px;
+    border-style:none;
+    cursor:pointer
+}
+input[type='submit']:hover{
+    opacity: 0.5;
+}
