@@ -1,0 +1,140 @@
+body{
+    background:linear-gradient(black, rgb(12, 12, 12));
+    height: 100vh;
+    color:white
+}
+#color{
+    text-decoration: underline orange;
+    font-size:25px
+}
+.logo img{
+    width:100px;
+    height:100px;
+    border-radius:100px;
+}
+.logo{
+    display:flex;
+    justify-content: space-around;
+    width:300px;
+    align-items: center
+}
+header h1{
+    font-size:50px;
+    color:rgb(255, 255, 255);
+    text-shadow: 0px 0px 4px grey;
+    font-family: "Charm", serif;
+    font-weight: 700;
+    font-style: normal;
+    animation:color infinite alternate 3s
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+}
+header nav li{
+    width:400px;
+    display:inline;
+    margin-left:50px;
+    margin-right:90px
+}
+header nav li{
+    list-style-type: none;
+}
+header a{
+    text-decoration: none;
+    font-size:20px;
+    color:rgb(255, 255, 255);
+    text-shadow: 0px 0px 4px grey;
+    font-family: "Charm", serif;
+    font-weight: 700;
+    font-style: normal;
+    transition:0.5s
+}
+header a:hover{
+    font-size:25px;
+    color:orange;
+    text-shadow: 0px 0px 10px white;
+}
+
+.registration{
+    margin-left:40%;
+    width:400px;
+    height:400px;
+    border-radius:20px;
+    animation:0.5s color1 infinite alternate;}
+@keyframes color1{
+    0%{
+        box-shadow:0px 0px 20px orange
+    }
+    100%{
+        box-shadow:0px 0px 20px white
+    }
+}
+@keyframes color{
+    0%{
+        color:white;
+        text-shadow: 0px 0px 30px grey;
+    }
+    100%{
+        color:orange;
+        text-shadow: 2px 2px 20px yellow;
+    }
+}
+h2{
+    text-align: center;
+    animation:color 2s infinite alternate
+}
+input{
+    width:300px;
+    height:30px;
+    border-radius:20px;
+    background: none;
+    color:white;
+    animation: color1 infinite 2s alternate;
+    border-style:none;
+    padding-left:20px
+}
+.bx{
+    font-size:40px
+}
+.registration div{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input[type=text]{
+    margin-top:20px;
+    width:600px;
+    color:white;
+    width:200px
+}
+.button{
+    margin-top:200px;
+    display:flex;
+    justify-content: space-around;
+}
+.button input[type='submit']{
+    width:100px;
+    background-color: rgb(0, 255, 0);
+    font-size:20px;
+    border-radius:20px;
+    border-style:none;
+    font-weight:400 ;
+    color:white;
+    margin-bottom:20px;
+    cursor:pointer;
+    padding-right:20px
+}
+.button input[type='reset']{
+    width:100px;
+    background-color: rgb(255, 0, 0);
+    font-size:20px;
+    border-radius:20px;
+    border-style:none;
+    font-weight:400 ;
+    color:white;
+    margin-bottom:20px;
+    cursor:pointer;
+    padding-right:20px
+}
